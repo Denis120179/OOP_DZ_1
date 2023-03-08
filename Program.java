@@ -11,5 +11,11 @@ public class Program {
 
         Product d = new Drink("coffee", 15, 20, "cup", 200);
         System.out.println(d);
+
+        Product e = new Hygiene("paste", 2, 200, "tub", 10);
+        System.out.println(e);
+
+        Product f = new Baby("pampers", 20, 20, "piece", 1, "No allergy");
+        System.out.println(f);
     } 
 }

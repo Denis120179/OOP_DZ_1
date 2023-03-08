@@ -11,5 +11,9 @@ public class Baby extends Product{
     @Override
     public String toString() {
        return String.format(super.toString() + "  minAge: %d" + "  allergy: %s",this.minAge, this.allergy);
-    } 
+    }
+    /**
+     * Здесь я до конца не разобрался, как добавить новые параметры вывода в базовый метод
+     * Поэтому сделал через +
+     */
 }
